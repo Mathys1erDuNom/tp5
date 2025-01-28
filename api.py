@@ -42,7 +42,7 @@ def get_db_connection():
 # Endpoint : teste le démarrage de l'API
 @app.get("/")
 def test_demarrage():
-    return {"serveur" : "démarré"}
+    return {"🐊 serveur" : "démarré 🐊"}
 
 # Endpoint : Liste de tous les noms d'animaux
 @app.get("/animaux/noms")
